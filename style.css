@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quote {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#quote-text {
+  font-size: 24px;
+}
+
+#author {
+  font-size: 18px;
+}
+
+#new-quote {
+  margin-top: 50px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
